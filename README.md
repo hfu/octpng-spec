@@ -24,3 +24,7 @@ octpng タイルは、画像タイルのオーバーズーミングを活用し�
 
 # ChangeLog
 - 2015-07-23 開始
+
+# See also
+- http://github.com/hfu/octpng-bin
+- 

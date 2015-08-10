@@ -11,7 +11,7 @@ specifications for delta_z = 8 png tile as meta tile for tile existence
 つなぐ構成を考える。コマンドラインは次のような形になるだろう。
 
 ```
-$ ruby map.rb somewhere/mokuroku.csv.gz 15 | sort | ruby reduce.rb out_dir
+$ ruby map.rb somewhere/mokuroku.csv.gz 15 | sort | ruby reduce.rb
 ```
 
 map の第二引数は、元のデータの minZoom とする。元のデータの minZoom のタイルをスキャンして
@@ -24,7 +24,7 @@ octpng タイルは、画像タイルのオーバーズーミングを活用し�
 
 # ChangeLog
 - 2015-07-23 開始
+- 2015-08-10 https://hfu.github.io/octpng-bin/ でコンセプト実証
 
 # See also
 - http://github.com/hfu/octpng-bin
-
